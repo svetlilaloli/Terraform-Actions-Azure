@@ -82,4 +82,4 @@ jobs:
         path: .
     
     - name: Terraform apply
-      run: terraform apply -auto-approve ftplan
+      run: terraform apply -auto-approve tfplan
