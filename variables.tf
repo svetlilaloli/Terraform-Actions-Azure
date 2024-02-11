@@ -1,6 +1,26 @@
-variable "resource_group_name" {
+variable "storage_resource_group_name" {
   type        = string
-  description = "azure resource group name"
+  description = "azure storage resource group name"
+}
+variable "storage_account_name" {
+  type        = string
+  description = "azure storage account name"
+}
+variable "storage_account_tier" {
+  type        = string
+  description = "azure storage account tier"
+}
+variable "storage_account_replica_type" {
+  type        = string
+  description = "azure storage account replica type"
+}
+variable "storage_container_name" {
+  type        = string
+  description = "azure storage container name"
+}
+variable "app_resource_group_name" {
+  type        = string
+  description = "azure app resource group name"
 }
 variable "resource_group_location" {
   type        = string
