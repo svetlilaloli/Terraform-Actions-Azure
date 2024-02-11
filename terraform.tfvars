@@ -1,5 +1,5 @@
 storage_resource_group_name  = "storage-rg"
-storage_account_name         = "taskboardstorage"
+storage_account_name         = "mytaskboardstorage"
 storage_account_tier         = "Standard_LRS"
 storage_account_replica_type = "StorageV2"
 storage_container_name       = "taskboardcontainer"
